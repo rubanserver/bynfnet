@@ -14,7 +14,7 @@ from pyrogram.types import *
 from translation import *
 from bot import *
 
-bae_site = "tamizhmasters.net"
+base_site = "tamizhmasters.net"
 logger = logging.getLogger(__name__)
 
 user_commands = ["set_api", "header", "footer", "username", "banner_image", "me"]
