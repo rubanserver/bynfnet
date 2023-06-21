@@ -161,7 +161,7 @@ async def me_handler(bot, m:Message):
     user_id = m.from_user.id
     user = await get_user(user_id)
     res = USER_ABOUT_MESSAGE.format(
-                base_site=user["base_site"], 
+                base_site=user["BASE_SITE"], 
                 method=user["method"], 
                 shortener_api=user["shortener_api"], 
                 mdisk_api=user["mdisk_api"],
